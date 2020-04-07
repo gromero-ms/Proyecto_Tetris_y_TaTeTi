@@ -1,6 +1,5 @@
 # tetris_error404_utn
-##Proyecto Tetris en C - Error 404 - UTN
-
+## Proyecto Tetris en C - Error 404 - UTN
 Con el propósito fundamental de integrar todo lo aprendido durante la cursa de la materia laboratorio 1, nos propusimos a desarrollar el clásico videojuego de puzzle Tetris.
 Originalmente diseñado y programado por Alekséi Pázhitnov en la Unión Soviética. Fue lanzado el 6 de junio de 1984,  mientras trabajaba para el Centro de Computación Dorodnitsyn de la Academia de Ciencias de la Unión Soviética en Moscú.
 Año 2019 y nosotros, dos estudiantes de programación en nuestro primer año, tratamos de emularlo, sin utilizar librerías graficas como graphic.h o ncurses , solo las propias de C, sin saber todo lo que nos depararía sumergirnos en el desarrollo de tan icónico juego.
