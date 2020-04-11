@@ -1,0 +1,320 @@
+# depslib dependency file v1.0
+1572320394 source:c:\users\vanesa\documents\tecnico superior en programacion\tp final lab 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"lista.h"
+	<conio.h>
+	<ctype.h>
+
+1572320470 source:c:\users\vanesa\documents\tecnico superior en programacion\tp final lab 2\lista.c
+	"lista.h"
+
+1572148362 c:\users\vanesa\documents\tecnico superior en programacion\tp final lab 2\lista.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1572370480 source:f:\tp final lab 2\lista.c
+	"lista.h"
+
+1572371284 f:\tp final lab 2\lista.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<windows.h>
+	<conio.h>
+	<ctype.h>
+
+1572370592 source:f:\tp final lab 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"lista.h"
+	<conio.h>
+	<ctype.h>
+
+1572560222 source:c:\users\usuario\desktop\tp final lab 2\lista.c
+	"lista.h"
+
+1572371284 c:\users\usuario\desktop\tp final lab 2\lista.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<windows.h>
+	<conio.h>
+	<ctype.h>
+
+1572564248 source:c:\users\usuario\desktop\tp final lab 2\main.c
+	"lista.h"
+	"users.h"
+
+1572564490 c:\users\usuario\desktop\tp final lab 2\users.h
+	"lista.h"
+
+1572563958 source:c:\users\usuario\desktop\tp final lab 2\users.c
+	"users.h"
+
+1573966459 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 0.1\tp final lab 2\lista.c
+	"lista.h"
+
+1573966459 c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 0.1\tp final lab 2\lista.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<windows.h>
+	<conio.h>
+	<ctype.h>
+
+1573974379 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 0.1\tp final lab 2\users.c
+	"users.h"
+
+1573972340 c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 0.1\tp final lab 2\users.h
+	"lista.h"
+
+1573974243 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 0.1\tp final lab 2\main.c
+	"lista.h"
+	"users.h"
+	"menu.h"
+
+1573974459 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 0.1\tp final lab 2\menu.c
+	"menu.h"
+
+1573971846 c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 0.1\tp final lab 2\menu.h
+	<stdio.h>
+
+1574067369 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2\lista.c
+	"lista.h"
+
+1574067353 c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2\lista.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<windows.h>
+	<conio.h>
+	<ctype.h>
+
+1574067338 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2\main.c
+	"lista.h"
+	"users.h"
+	"menu.h"
+
+1574066430 c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2\users.h
+	"lista.h"
+
+1574058891 c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2\menu.h
+	<stdio.h>
+	<stdlib.h>
+
+1574058891 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2\menu.c
+	"menu.h"
+
+1574067077 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2\users.c
+	"users.h"
+	"menu.h"
+
+1574125266 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2 vlogin\lista.c
+	"lista.h"
+
+1574097336 c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2 vlogin\lista.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<windows.h>
+	<conio.h>
+	<ctype.h>
+
+1574126429 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2 vlogin\main.c
+	"lista.h"
+	"users.h"
+	"menu.h"
+	"tetris.h"
+
+1574126211 c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2 vlogin\users.h
+	"lista.h"
+
+1574058891 c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2 vlogin\menu.h
+	<stdio.h>
+	<stdlib.h>
+
+1574124641 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2 vlogin\menu.c
+	"menu.h"
+
+1574126211 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2 vlogin\users.c
+	"users.h"
+	"menu.h"
+
+1574102623 c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2 vlogin\tetris.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<time.h>
+	<string.h>
+
+1574123536 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.0\tp final lab 2 vlogin\tetris.c
+	"tetris.h"
+
+1574289166 source:c:\users\usuario\desktop\nueva carpeta\tp lab 2\build 1.1\tp final lab 2 vlogin\lista.c
+	"lista.h"
+
+1574287518 c:\users\usuario\desktop\nueva carpeta\tp lab 2\build 1.1\tp final lab 2 vlogin\lista.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<windows.h>
+	<conio.h>
+	<ctype.h>
+
+1574290977 source:c:\users\usuario\desktop\nueva carpeta\tp lab 2\build 1.1\tp final lab 2 vlogin\main.c
+	"lista.h"
+	"users.h"
+	"menu.h"
+	"tetris.h"
+
+1574290701 c:\users\usuario\desktop\nueva carpeta\tp lab 2\build 1.1\tp final lab 2 vlogin\users.h
+	"lista.h"
+
+1574286455 c:\users\usuario\desktop\nueva carpeta\tp lab 2\build 1.1\tp final lab 2 vlogin\menu.h
+	<stdio.h>
+	<stdlib.h>
+
+1574286455 c:\users\usuario\desktop\nueva carpeta\tp lab 2\build 1.1\tp final lab 2 vlogin\tetris.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<time.h>
+	<string.h>
+
+1574124641 source:c:\users\usuario\desktop\nueva carpeta\tp lab 2\build 1.1\tp final lab 2 vlogin\menu.c
+	"menu.h"
+
+1574127329 source:c:\users\usuario\desktop\nueva carpeta\tp lab 2\build 1.1\tp final lab 2 vlogin\tetris.c
+	"tetris.h"
+
+1574290977 source:c:\users\usuario\desktop\nueva carpeta\tp lab 2\build 1.1\tp final lab 2 vlogin\users.c
+	"users.h"
+	"menu.h"
+
+1574289166 source:c:\users\usuario\desktop\tp lab 2\build 1.2\tp final lab 2 vlogin\lista.c
+	"lista.h"
+
+1574287518 c:\users\usuario\desktop\tp lab 2\build 1.2\tp final lab 2 vlogin\lista.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<windows.h>
+	<conio.h>
+	<ctype.h>
+
+1574294094 source:c:\users\usuario\desktop\tp lab 2\build 1.2\tp final lab 2 vlogin\menu.c
+	"menu.h"
+
+1574294094 c:\users\usuario\desktop\tp lab 2\build 1.2\tp final lab 2 vlogin\menu.h
+	<stdio.h>
+	<stdlib.h>
+
+1574292819 source:c:\users\usuario\desktop\tp lab 2\build 1.2\tp final lab 2 vlogin\tetris.c
+	"tetris.h"
+
+1574286455 c:\users\usuario\desktop\tp lab 2\build 1.2\tp final lab 2 vlogin\tetris.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<time.h>
+	<string.h>
+
+1574296997 source:c:\users\usuario\desktop\tp lab 2\build 1.2\tp final lab 2 vlogin\users.c
+	"users.h"
+	"menu.h"
+
+1574296997 c:\users\usuario\desktop\tp lab 2\build 1.2\tp final lab 2 vlogin\users.h
+	"lista.h"
+
+1574296997 source:c:\users\usuario\desktop\tp lab 2\build 1.2\tp final lab 2 vlogin\main.c
+	"lista.h"
+	"users.h"
+	"menu.h"
+	"tetris.h"
+	"raya.h"
+
+1574295533 source:c:\users\usuario\desktop\tp lab 2\build 1.2\tp final lab 2 vlogin\raya.c
+	"raya.h"
+
+1574294453 c:\users\usuario\desktop\tp lab 2\build 1.2\tp final lab 2 vlogin\raya.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<conio.h>
+	<time.h>
+	<wchar.h>
+	<math.h>
+
+1586637251 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.2\tp final lab 2 vlogin\lista.c
+	"lista.h"
+
+1574287518 c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.2\tp final lab 2 vlogin\lista.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<windows.h>
+	<conio.h>
+	<ctype.h>
+
+1586638141 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.2\tp final lab 2 vlogin\main.c
+	"lista.h"
+	"users.h"
+	"menu.h"
+	"tetris.h"
+	"raya.h"
+
+1574296997 c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.2\tp final lab 2 vlogin\users.h
+	"lista.h"
+
+1574294094 c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.2\tp final lab 2 vlogin\menu.h
+	<stdio.h>
+	<stdlib.h>
+
+1574286455 c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.2\tp final lab 2 vlogin\tetris.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<time.h>
+	<string.h>
+
+1586638082 c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.2\tp final lab 2 vlogin\raya.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<conio.h>
+	<time.h>
+	<wchar.h>
+	<math.h>
+
+1586638563 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.2\tp final lab 2 vlogin\raya.c
+	"raya.h"
+
+1586638563 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.2\tp final lab 2 vlogin\tetris.c
+	"tetris.h"
+
+1574296997 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.2\tp final lab 2 vlogin\users.c
+	"users.h"
+	"menu.h"
+
+1586637251 source:c:\users\vanesa\documents\tecnico superior en programacion\tp lab 2\build 1.2\tp final lab 2 vlogin\menu.c
+	"menu.h"
+
