@@ -109,17 +109,18 @@ La primera estructura contiene la información del Tablero:
 ```
 typedef struct
 {
-char layout[5][5]; El tablero en si
-int id; Código identificador del tablero
-int nivel; Cantidad de jugadas en el tablero
-int siguientes[9]; Jugadas posibles para ese tablero
+char layout[5][5];  //El tablero en si
+int id;             //Código identificador del tablero
+int nivel;          //Cantidad de jugadas en el tablero
+int siguientes[9];  //Jugadas posibles para ese tablero
 } table;
+```
 Una vez más, ya que los valores de las filas y las columnas se
 mantienen constante durante todo el juego, vimos convenientes
 definirlas como constantes:
-#define FILT 5
-#define COLT 5
-```
+**#define FILT 5
+#define COLT 5**
+
 *Estas no entran en conflicto con las globales del tetris ya que cada
 juego se maneja en su propia librería y estas no están conectadas
 entre sí.
