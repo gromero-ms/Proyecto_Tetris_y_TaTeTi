@@ -109,10 +109,10 @@ La primera estructura contiene la información del Tablero:
 ```
 typedef struct
 {
-char layout[5][5];  //El tablero en si
-int id;             //Código identificador del tablero
-int nivel;          //Cantidad de jugadas en el tablero
-int siguientes[9];  //Jugadas posibles para ese tablero
+    char layout[5][5];  //El tablero en si
+    int id;             //Código identificador del tablero
+    int nivel;          //Cantidad de jugadas en el tablero
+    int siguientes[9];  //Jugadas posibles para ese tablero
 } table;
 ```
 Una vez más, ya que los valores de las filas y las columnas se
@@ -133,10 +133,10 @@ cuales se aplicara dicha jugada.
 ```
 typedef struct
 {
-int player; Que jugador realiza la jugada
-int i; Coordenada I del tablero
-int j; Coordenada J del tablero
-int valor; Valor de la jugada(no se implemento)
+    int player;         //Que jugador realiza la jugada
+    int i;              //Coordenada I del tablero
+    int j;              //Coordenada J del tablero
+    int valor;          //Valor de la jugada(no se implemento)
 } jugada;
 ```
 
@@ -184,25 +184,26 @@ int evaluaVictoria(table unTablero);**
 ```
 jugada la2jugada(table unTablero)
 {
-jugada unaJugada;
-jugada otraJugada;
-int victoria=0;
-int derrota=0;
-unaJugada=mejorMove(unTablero);
-unTablero.layout[unaJugada.i] [unaJugada.j]=’2’;
-victoria=evaluaVictoria(unTablero);
-if(victoria!=-1)
-{
-otraJugada=peorMove(unTablero);
-unTablero.layout[otraJugada.i] [otraJugada.j]=’1’;
-derrota=evaluaVictoria(unTablero);
-if(derrota==1)
-unaJugada=otraJugada;
-else if(derrota!=1 &amp;&amp; derrota!=0)
-otraJugada=laJugada(unTablero);
-}
+    jugada unaJugada;
+    jugada otraJugada;
+    int victoria=0;
+    int derrota=0;
+    unaJugada=mejorMove(unTablero);
+    unTablero.layout[unaJugada.i] [unaJugada.j]=’2’;
+    victoria=evaluaVictoria(unTablero);
+    if(victoria!=-1)
+    {
+        otraJugada=peorMove(unTablero);
+        unTablero.layout[otraJugada.i] [otraJugada.j]=’1’;
+        derrota=evaluaVictoria(unTablero);
+        if(derrota==1)
+            unaJugada=otraJugada;
+        else if(derrota!=1 &amp; &amp; derrota!=0)
+            otraJugada=laJugada(unTablero);
+    }
 
-return unaJugada; }
+    return unaJugada;
+}
 ```
 De esta manera el juego continua hasta que se declara la victoria de
 un de los jugadores o se llena el tablero en un empate.
