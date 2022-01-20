@@ -16,7 +16,7 @@ Las mismas se encuentran representadas dentro de una matriz de 4 x 4, completa c
 ##                 Rotacion Fila Columna**
 
 **La primera estructura** contiene la información de la Pieza:
-```
+``` c
 typedef struct
 {
     int color;           		//próximamente tendrán color**	        
@@ -35,7 +35,7 @@ Pieza T invertida     - Pieza Cuadrado  -     Pieza I***
 **char tablero[24][12];**
 
 Ya que los valores de las filas y las columnas se mantienen constante durante todo el juego, vimos convenientes definirlas como constantes:
-```
+``` c
 #define FILAT 24 
 #define COLT 12
 ```
@@ -47,7 +47,7 @@ Al trabajar con un lenguaje como el C necesitamos generar la menos cantidad de l
 ###### Juego: 
 Una vez definidas las piezas y los tableros se procede a desarrollar el juego. Se crea una función la cual mediante la función srand() selecciona de manera random una Pieza y la carga en la pieza que pasara a ser Pieza enJuego. Esta pieza pasara a ser la que se imprima dentro de las matrices tablero. 
 Toda esta interacción entre el usuario y la consola se realiza con una función que toma la tecla (carácter) que presiona el usuario y modifica una de las las variables dentro de la función que imprime la pieza en el tablero principal.
-```
+``` c
 void pasaFichaToTablero (int rotacion,int i,int j, char tablero [FILAT][COLT] , Pieza enJuego);
 int rotación;        ///recibe la rotación de la ficha que esta en juego.
 int i;              ///la primera fila actual donde se encuentra
@@ -63,7 +63,7 @@ Para poder analizar esta situación creamos una función la cual va leyendo todo
 
 
 ###### Función de verificar fila completa:
-```
+``` c
 void verificFilaCompleta (char tableroBFF [FILAT][COLT],char tablero[FILAT][COLT])
  {
     int i,j,suma;
@@ -106,7 +106,7 @@ por lo que todas las funciones de análisis y recorrido de un tablero se adaptar
 las áreas no jugables.
 La primera estructura contiene la información del Tablero:
 
-```
+``` c
 typedef struct
 {
     char layout[5][5];  //El tablero en si
@@ -130,7 +130,7 @@ entre sí.
 En el tablero contamos con una matriz, sobre la cual se realizaran las
 diferentes jugadas, las cuales contendrán las coordenadas sobre las
 cuales se aplicara dicha jugada.
-```
+``` c
 typedef struct
 {
     int player;         //Que jugador realiza la jugada
@@ -181,7 +181,7 @@ int evaluaVictoria(table unTablero);**
 
 
 ###### Función de la jugada:
-```
+``` c
 jugada la2jugada(table unTablero)
 {
     jugada unaJugada;
